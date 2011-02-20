@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Thefakeme</title>
-  <%= stylesheet_link_tag :all %>
+<title>The Fake Me - <%= yield(:title) || "Party on" %></title>
+	<link rel="shortcut icon" href="/favicon.ico" />  <%= stylesheet_link_tag :all %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
