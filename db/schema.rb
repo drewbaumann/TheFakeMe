@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110221001103) do
+ActiveRecord::Schema.define(:version => 20110221222652) do
 
   create_table "requests", :force => true do |t|
     t.datetime "created_at"
@@ -38,6 +38,7 @@ ActiveRecord::Schema.define(:version => 20110221001103) do
     t.string   "username"
     t.string   "firstname"
     t.string   "lastname"
+    t.boolean  "admin"
   end
 
   add_index "users", ["confirmation_token"], :name => "index_users_on_confirmation_token", :unique => true
