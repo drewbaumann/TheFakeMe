@@ -6,7 +6,7 @@ gem 'gravatar_image_tag', '0.1.0'
 gem 'will_paginate', '3.0.pre2'
 gem 'devise', '1.1.rc0'
 gem 'jquery-rails', '>= 0.2.6'
-
+gem 'stylistic'
 
 
 group :development do
