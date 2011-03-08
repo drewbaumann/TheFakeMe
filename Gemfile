@@ -8,7 +8,7 @@ gem 'devise', '1.1.rc0'
 gem 'jquery-rails', '>= 0.2.6'
 gem 'stylistic'
 gem 'faker-fakeme'
-
+gem 'dynamic_form'
 
 group :development do
   gem 'rspec-rails', '2.0.1'
