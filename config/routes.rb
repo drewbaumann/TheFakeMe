@@ -1,4 +1,6 @@
 Thefakeme::Application.routes.draw do
+  resources :identities
+
   devise_for :users, :path_names => { :sign_up => "register" }
 
   match '/contact',   :to => 'pages#contact'

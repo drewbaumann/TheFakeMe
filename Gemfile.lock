@@ -37,6 +37,8 @@ GEM
     erubis (2.6.6)
       abstract (>= 1.0.0)
     faker (0.3.1)
+    faker-fakeme (0.9.7)
+      i18n (~> 0.4)
     gravatar_image_tag (0.1.0)
     i18n (0.5.0)
     jquery-rails (0.2.6)
@@ -102,6 +104,7 @@ DEPENDENCIES
   annotate-models (= 1.0.4)
   devise (= 1.1.rc0)
   faker (= 0.3.1)
+  faker-fakeme
   gravatar_image_tag (= 0.1.0)
   jquery-rails (>= 0.2.6)
   rails (= 3.0.3)

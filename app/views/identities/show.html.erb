@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Fname:</b>
+  <%= @identity.fname %>
+</p>
+
+<p>
+  <b>Lname:</b>
+  <%= @identity.lname %>
+</p>
+
+<p>
+  <b>Occupation:</b>
+  <%= @identity.occupation %>
+</p>
+
+
+<%= link_to 'Edit', edit_identity_path(@identity) %> |
+<%= link_to 'Back', identities_path %>
